@@ -1,13 +1,26 @@
-# Modul ESP8266 ESP-12f Relay 1 Channel 
+# Modul ESP8266 ESP-12f Relay 2 Channel 
 ![](https://github.com/hwthinker/esp8266-relay-1ch/blob/main/skematik.png)
-## Cara download
+## Cara download dengan jumper
 - Pasang serial USB TTL dengan ketentuan RX -> TX USB Serial ; TX -> RX USB Serial; GND -> GND USB Serial
-- pasang Jumper
-- Beri Power antara 7-28VDC
-- Download ke alat
+- 5V -> 5V USB Serial
+- pasang Jumper untuk menghubungkan IO0 terhubung GND
+- Klik tombol reset (Tekan dan lepas tombol reset)
+- Download ke alat dan tunggu sampai selesai
 - lepas jumper
-- Unplug Power dan Pasang lagi untuk run-program
+- Klik tombol reset lagi untuk run-program
 - ulang langkah awal untuk download ulang
+
+## Cara download dengan jumper
+- Pasang serial USB TTL dengan ketentuan RX -> TX USB Serial ; TX -> RX USB Serial; GND -> GND USB Serial
+- 5V -> 5V USB Serial
+- pasang push button dengan ujung yang satu ke pin IO0, ujung yang lain ke GND
+- Tekan dan tahan push button IO0
+- Klik tombol reset (Tekan dan lepas tombol reset) dengan tetap menahan pushbutton IO0
+- lepas pushbutton IO0
+- Download ke alat dan tunggu sampai selesai
+- Klik tombol reset lagi untuk run-program
+- ulang langkah awal untuk download ulang
+
 ## cara push file di github 
 - echo "# esp8266-relay-1ch" >> README.md 
 - git init git add README.md 
