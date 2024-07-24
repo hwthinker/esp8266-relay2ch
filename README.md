@@ -24,7 +24,7 @@
 
 ## Cara Aktifkan relay
 - Hubungkan Jumper RY1 dan RY2 seperti gambar berikut
-![](https://github.com/hwthinker/esp8266-relay-1ch/blob/main/skematik2.png)
+![](https://github.com/hwthinker/esp8266-relay2ch/blob/main/skematik2.png)
 
 
 ## cara push file di github 
