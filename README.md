@@ -10,6 +10,7 @@
 - Klik tombol reset lagi untuk run-program
 - ulang langkah awal untuk download ulang
 
+
 ## Cara download dengan jumper
 - Pasang serial USB TTL dengan ketentuan RX -> TX USB Serial ; TX -> RX USB Serial; GND -> GND USB Serial
 - 5V -> 5V USB Serial
@@ -20,6 +21,11 @@
 - Download ke alat dan tunggu sampai selesai
 - Klik tombol reset lagi untuk run-program
 - ulang langkah awal untuk download ulang
+
+## Cara Aktifkan relay
+- Hubungkan Jumper RY1 dan RY2 seperti gambar berikut
+![](https://github.com/hwthinker/esp8266-relay-1ch/blob/main/skematik2.png)
+
 
 ## cara push file di github 
 - echo "# esp8266-relay-1ch" >> README.md 
