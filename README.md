@@ -1,5 +1,7 @@
 # Modul ESP8266 ESP-12f Relay 2 Channel 
-![](https://github.com/hwthinker/esp8266-relay-1ch/blob/main/skematik.png)
+![](https://github.com/hwthinker/esp8266-relay2ch/blob/main/picture/1.png)
+
+![](https://github.com/hwthinker/esp8266-relay2ch/blob/main/picture/2.png)
 ## Cara download dengan jumper
 - Pasang serial USB TTL dengan ketentuan RX -> TX USB Serial ; TX -> RX USB Serial; GND -> GND USB Serial
 - 5V -> 5V USB Serial
@@ -24,7 +26,7 @@
 
 ## Cara Aktifkan relay
 - Hubungkan Jumper RY1 dan RY2 seperti gambar berikut
-![](https://github.com/hwthinker/esp8266-relay2ch/blob/main/skematik2.png)
+![](![](https://github.com/hwthinker/esp8266-relay2ch/blob/main/picture/3.png))
 
 
 ## cara push file di github 
