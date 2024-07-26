@@ -10,9 +10,9 @@
 ## Cara download dengan jumper
 ![](https://github.com/hwthinker/esp8266-relay2ch/blob/main/picture/4.png)
 - Pasang serial USB TTL dengan ketentuan: 
-  - RX -> TX USB Serial
-  - TX -> RX USB Serial
-  - GND -> GND USB Serial
+   - TX -> RX USB Serial (Kabel Putih)
+   - RX -> TX USB Serial (Kabel Hijau)
+   - GND -> GND USB Serial (Kabel Hitam)
 - Pastikan supply 9VDC dihubungkan pin 7-80VDC
 - pasang Jumper untuk menghubungkan IO0 terhubung GND
 - Klik tombol reset (Tekan dan lepas tombol reset)
@@ -24,9 +24,9 @@
 ## Cara download dengan button
 ![](https://github.com/hwthinker/esp8266-relay2ch/blob/main/picture/5.png)
 - Pasang serial USB TTL dengan ketentuan:
-   - RX -> TX USB Serial 
-   - TX -> RX USB Serial
-   - GND -> GND USB Serial
+   - TX -> RX USB Serial (Kabel Putih)
+   - RX -> TX USB Serial (Kabel Hijau)
+   - GND -> GND USB Serial (Kabel Hitam)
 - Pastikan supply 9VDC dihubungkan pin 7-80VDC
 - pasang push button dengan ujung yang satu ke pin IO0, ujung yang lain ke GND
 - Tekan dan tahan push button IO0
