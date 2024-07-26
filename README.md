@@ -2,7 +2,13 @@
 ![](https://github.com/hwthinker/esp8266-relay2ch/blob/main/picture/1.png)
 
 ![](https://github.com/hwthinker/esp8266-relay2ch/blob/main/picture/2.png)
+
+## Cara Aktifkan relay
+- Hubungkan Jumper RY1 dan RY2 seperti gambar berikut
+![](https://github.com/hwthinker/esp8266-relay2ch/blob/main/picture/3.png)
+
 ## Cara download dengan jumper
+![](https://github.com/hwthinker/esp8266-relay2ch/blob/main/picture/4.png)
 - Pasang serial USB TTL dengan ketentuan RX -> TX USB Serial ; TX -> RX USB Serial; GND -> GND USB Serial
 - 5V -> 5V USB Serial
 - pasang Jumper untuk menghubungkan IO0 terhubung GND
@@ -12,8 +18,8 @@
 - Klik tombol reset lagi untuk run-program
 - ulang langkah awal bila melakukan download ulang lagi
 
-
 ## Cara download dengan button
+![](https://github.com/hwthinker/esp8266-relay2ch/blob/main/picture/5.png)
 - Pasang serial USB TTL dengan ketentuan RX -> TX USB Serial ; TX -> RX USB Serial; GND -> GND USB Serial
 - 5V -> 5V USB Serial
 - pasang push button dengan ujung yang satu ke pin IO0, ujung yang lain ke GND
@@ -24,9 +30,22 @@
 - Klik tombol reset lagi untuk run-program
 - ulang langkah awal untuk download ulang
 
-## Cara Aktifkan relay
-- Hubungkan Jumper RY1 dan RY2 seperti gambar berikut
-![](https://github.com/hwthinker/esp8266-relay2ch/blob/main/picture/3.png)
+## Cara download dengan Serial USB auto Download
+![](https://github.com/hwthinker/esp8266-relay2ch/blob/main/picture/6.png)
+- Pasang serial USB TTL dengan ketentuan 
+    - RX -> RX USB Serial  
+    - TX -> TX USB Serial 
+    - GND -> GND USB Serial  
+    - IO0 -> IO# USB Serial 
+    - EN -> EN# USB Serial
+- Pastikan supply 9VDC
+- pasang push button dengan ujung yang satu ke pin IO0, ujung yang lain ke GND
+- Tekan dan tahan push button IO0
+- Klik tombol reset (Tekan dan lepas tombol reset) dengan tetap menahan pushbutton IO0
+- lepas pushbutton IO0
+- Download ke alat dan tunggu sampai selesai
+- Klik tombol reset lagi untuk run-program
+- ulang langkah awal untuk download ulang
 
 
 ## cara push file di github 
