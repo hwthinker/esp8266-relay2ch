@@ -16,7 +16,7 @@
 - Pastikan supply 9VDC dihubungkan pin 7-80VDC
 - pasang Jumper untuk menghubungkan IO0 terhubung GND
 - Klik tombol reset (Tekan dan lepas tombol reset)
-- Download ke alat dan tunggu sampai selesai
+- Download program dan tunggu sampai selesai
 - lepas jumper
 - Klik tombol reset lagi untuk run-program
 - ulang langkah awal bila melakukan download ulang lagi
@@ -32,7 +32,7 @@
 - Tekan dan tahan push button IO0
 - Klik tombol reset (Tekan dan lepas tombol reset) dengan tetap menahan pushbutton IO0
 - lepas pushbutton IO0
-- Download ke alat dan tunggu sampai selesai
+- Download program dan tunggu sampai selesai
 - Klik tombol reset lagi untuk run-program
 - ulang langkah awal untuk download ulang
 
@@ -45,13 +45,7 @@
     - IO0 -> IO# USB Serial 
     - EN -> EN# USB Serial
 - Pastikan supply 9VDC dihubungkan pin 7-80VDC
-- pasang push button dengan ujung yang satu ke pin IO0, ujung yang lain ke GND
-- Tekan dan tahan push button IO0
-- Klik tombol reset (Tekan dan lepas tombol reset) dengan tetap menahan pushbutton IO0
-- lepas pushbutton IO0
-- Download ke alat dan tunggu sampai selesai
-- Klik tombol reset lagi untuk run-program
-- ulang langkah awal untuk download ulang
+- Download program dan tunggu sampai selesai
 
 
 ## cara push file di github 
