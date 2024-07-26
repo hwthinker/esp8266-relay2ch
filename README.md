@@ -10,7 +10,7 @@
 - Download ke alat dan tunggu sampai selesai
 - lepas jumper
 - Klik tombol reset lagi untuk run-program
-- ulang langkah awal bila melakukan download ulang
+- ulang langkah awal bila melakukan download ulang lagi
 
 
 ## Cara download dengan button
