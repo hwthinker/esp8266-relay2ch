@@ -13,7 +13,7 @@
 - ulang langkah awal untuk download ulang
 
 
-## Cara download dengan jumper
+## Cara download dengan button
 - Pasang serial USB TTL dengan ketentuan RX -> TX USB Serial ; TX -> RX USB Serial; GND -> GND USB Serial
 - 5V -> 5V USB Serial
 - pasang push button dengan ujung yang satu ke pin IO0, ujung yang lain ke GND
