@@ -1,46 +1,68 @@
 # Modul ESP8266 ESP-12f Relay 2 Channel 
 ![1](./assets/1.png)
 
+## Cara install plugin Arduino IDE
+
+### Langkah 1: Buka Arduino IDE
+
+1. Buka aplikasi Arduino IDE di komputer Anda. Jika belum ada, unduh dan instal Arduino IDE dari situs resmi Arduino di https://www.arduino.cc/en/software. disarankan menggunakan arduino ide versi 2
+
+### Langkah 2: Tambahkan URL Board Manager untuk ESP8266
+
+2. Di Arduino IDE, buka **File** > **Preferences**.
+
+   ![image-20241218161205191](./assets/image-20241218161205191.png)
+
+3. Pada bagian  Additional Boards Manager URLs, tambahkan URL berikut:
+
+```
+https://arduino.esp8266.com/stable/package_esp8266com_index.json
+```
+
+4. Jika sebelumnya Anda sudah memiliki URL lain di sana, pisahkan URL ini dengan tanda koma atau baris baru.
+
+![image-20241219130329972](./assets/image-20241219130329972.png)
+
+### Langkah 3: Buka Boards Manager
+
+1. Buka **Tools** > **Board** > **Boards Manager**.
+
+![image-20241219143050427](./assets/image-20241219143050427.png)
+
+2. Di kotak pencarian, ketik **ESP8266**
+
+### Langkah 4: Instal Board ESP8266
+
+1. Temukan **ESP8266 by Espressif Systems** di daftar, kemudian klik **Install**.
+
+![image-20241219143234583](./assets/image-20241219143234583.png)
+
+2. Tunggu hingga proses instalasi selesai.
+
+### Langkah 5: Pilih Board ESP8266
+
+1. Setelah instalasi selesai, Anda dapat memilih board ESP8266.
+2. Buka **Tools** > **Board**, dan gulir ke bawah untuk menemukan berbagai jenis board ESP8266 yang telah diinstal. Pilih board yang sesuai, misalnya **Nodemcu 1.0 (ESP-12E Module)** 
+
+![image-20241219182253982](./assets/image-20241219182253982.png)
+
+3. hasilnya kurang lebih seperti ini
+
+![image-20241219182543854](./assets/image-20241219182543854.png)
+
+### Langkah 6: Pilih Port
+
+1. Sambungkan board esp8266 ke komputer Anda menggunakan kabel USB.
+2. Di **Tools** > **Port**, pilih port yang sesuai dengan esp8266 Anda.
+
+## Kode Program
+
+
 ![2](./assets/2.png)
 
 ## Cara Aktifkan relay
 - Hubungkan Jumper RY1 dan RY2 seperti gambar berikut
 ![3](./assets/3.png)
-
-
-
-## Persiapan di Arduino
-
-1. **Instal Arduino IDE**: Jika belum menginstal, unduh dan instal Arduino IDE dari website resmi Arduino.
-
-2. **Tambahkan Board ESP8266 ke Arduino IDE**:
-
-   - Buka **Arduino IDE**.
-
-   - Pergi ke menu **File** → **Preferences**.
-
-   - Di bagian 
-
-     Additional Board Manager URLs, masukkan URL berikut:
-
-     ```bash
-     http://arduino.esp8266.com/stable/package_esp8266com_index.json
-     ```
-
-   - Klik **OK**.
-
-   - Buka menu **Tools** → **Board** → **Boards Manager**.
-
-   - Cari **ESP8266** dan instal paket yang ditampilkan.
-
-3. **Pilih Board ESP8266**:
-
-   - Pergi ke menu **Tools** → **Board**, lalu pilih board yang sesuai, seperti **NodeMCU 1.0 (ESP-12E Module)** atau board ESP8266 yang Anda gunakan.
-
-4. **Pilih Port yang Tepat**:
-
-   - Sambungkan ESP8266 ke komputer menggunakan kabel USB.
-   - Pergi ke menu **Tools** → **Port** dan pilih port yang sesuai dengan ESP8266 Anda.
 
 
 
@@ -129,3 +151,8 @@
 - Pastikan supply 9VDC dihubungkan pin 7-80VDC
 - Download program dan tunggu sampai selesai
 
+> [!NOTE]
+> Untuk serial disarankan menggunakan serial auto download>
+>
+> - https://tokopedia.link/Ml3NIixX6Mb atau
+> - https://shopee.co.id/product/21375728/27056587756/ 
