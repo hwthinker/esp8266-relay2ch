@@ -152,7 +152,7 @@ https://arduino.esp8266.com/stable/package_esp8266com_index.json
 - Download program dan tunggu sampai selesai
 
 > [!NOTE]
-> Untuk serial disarankan menggunakan serial auto download>
+> Untuk serial disarankan menggunakan serial auto download
 >
 > - https://tokopedia.link/Ml3NIixX6Mb atau
 > - https://shopee.co.id/product/21375728/27056587756/ 
